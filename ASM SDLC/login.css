@@ -1,0 +1,141 @@
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: #fff;
+    min-width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideUp 0.6s ease-out;
+  }
+  
+  .heading {
+    font-size: 28px;
+    color: black ;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 10px 10px 20px;
+    outline: none;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .input::placeholder {
+    color: grey;
+    opacity: 0.8;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    font-size: 0.85em;
+    margin-top: -10px;
+  }
+  
+  .forgot-password a {
+    color: #626a71;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    border: none;
+    outline: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: orange;
+  }
+  
+  .social-account-container {
+    margin-top: 20px;
+  }
+  
+  .social-account-container .title {
+    font-size: 0.9em;
+    color: rgba(88, 87, 87, 0.822);
+  }
+  
+  .social-accounts {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-button {
+    background-color: #f7f7f7;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .social-button .svg {
+    height: 24px;
+    width: 24px;
+    fill: #626a71;
+  }
+  
+  .agreement {
+    margin-top: 15px;
+    font-size: 0.85em;
+    color: rgba(88, 87, 87, 0.822);
+  }
+  
+  .agreement a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .agreement a:hover {
+    color: orange;
+  }
+  
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
